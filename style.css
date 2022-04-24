@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    min-height: 95vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to top, purple, black);
+}
+
+.display {
+    overflow:hidden;
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    color: antiquewhite;
+    font-size: 3rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    margin-bottom: 1px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 300px;
+    height: 300px;
+}
+
+.equals {
+    grid-column: span 2;
+}
+
+.sign {
+    grid-column: span 2;
+}
+
+.buttons button {
+    background-color: Purple;
+    color: aliceblue;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#equ {
+    background-color: Purple;
+}
+
+#equ:hover {
+    background-color: rgb(236, 125, 134);
+    color: black;
+}
+
+.buttons button:hover {
+    background-color: black;
+    color: wheat;
+}
